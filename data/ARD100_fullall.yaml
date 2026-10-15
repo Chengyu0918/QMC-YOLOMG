@@ -1,0 +1,11 @@
+# FULL-quantity lists (115,278 train frames = every annotated frame of the
+# paper's 59 train-domain videos) for the full-budget rerun. val/test unchanged.
+train: Z:/cy/code/YOLOMG-main/change/YOLOMG-main/datasets/ARD100_full_clean/train_all.txt
+train2: Z:/cy/code/YOLOMG-main/change/YOLOMG-main/datasets/ARD100_full_clean/train2_all.txt
+val: Z:/cy/code/YOLOMG-main/change/YOLOMG-main/datasets/ARD100_full_clean/val.txt
+val2: Z:/cy/code/YOLOMG-main/change/YOLOMG-main/datasets/ARD100_full_clean/val2.txt
+test: Z:/cy/code/YOLOMG-main/change/YOLOMG-main/datasets/ARD100_full_clean/test.txt
+test2: Z:/cy/code/YOLOMG-main/change/YOLOMG-main/datasets/ARD100_full_clean/test2.txt
+
+nc: 1
+names: ['Drone']
