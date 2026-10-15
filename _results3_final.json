@@ -1,0 +1,40 @@
+{
+  "full_base": {
+    "layers": 403,
+    "params": 2041458,
+    "gflops": 20.2,
+    "hours": 5.995,
+    "images": 71468,
+    "labels": 71476,
+    "P": 0.182,
+    "R": 0.18,
+    "mAP50": 0.113,
+    "mAP": 0.0597,
+    "pre_ms": 0.1,
+    "inf_ms": 4.8,
+    "nms_ms": 0.8
+  },
+  "full_qmc": {
+    "layers": 412,
+    "params": 2044469,
+    "gflops": 22.6,
+    "hours": 7.222,
+    "images": 71468,
+    "labels": 71476,
+    "P": 0.0797,
+    "R": 0.16,
+    "mAP50": 0.0328,
+    "mAP": 0.016,
+    "pre_ms": 0.1,
+    "inf_ms": 4.2,
+    "nms_ms": 0.9,
+    "gate_mean": 0.5063,
+    "gate_std": 0.0083,
+    "delta_mean": 0.00363,
+    "delta_std": 0.10753,
+    "pearson_all": -0.0059,
+    "spearman_all": -0.0772,
+    "pearson_tgt": -0.0059,
+    "spearman_tgt": -0.0772
+  }
+}
