@@ -1,0 +1,11 @@
+{
+  "statistic": "per-channel mean of online Q over TRAIN split (frozen)",
+  "rule": "serial validated path: imread -> long-edge-640 INTER_AREA resize -> /255 -> compute_quality_evidence(motion, rgb); train split only, single pass",
+  "train_frames_used": 115278,
+  "train_list_md5": "9fc24db69317c8a4ebb0d64bc1f16fa7",
+  "q_res_mean": 0.8354769349098206,
+  "q_cov_mean": 0.9108575582504272,
+  "q_val_mean": 0.8464781641960144,
+  "sanity_check": "first-320 mean [0.858, 0.933, 0.844] reproduced by _q_mini.py",
+  "frozen_at": "2026-10-09T18:24:25"
+}

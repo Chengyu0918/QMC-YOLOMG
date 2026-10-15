@@ -1,0 +1,371 @@
+{
+  "fullall_base": {
+    "best.pt": {
+      "md5": "16899d7bc98daba57a3c419170dca614",
+      "size": 22547764
+    },
+    "last.pt": {
+      "md5": "edb5e839a7a385712e6390fd5846a887",
+      "size": 22547764
+    },
+    "epoch": -1,
+    "params": 2052357,
+    "fusion_keys": [
+      "model.4.channel_attention.f1.weight",
+      "model.4.channel_attention.f2.weight",
+      "model.4.spatial_attention.conv.weight"
+    ],
+    "fusion_shapes": {
+      "model.4.channel_attention.f1.weight": [
+        1,
+        16,
+        1,
+        1
+      ],
+      "model.4.channel_attention.f2.weight": [
+        16,
+        1,
+        1,
+        1
+      ],
+      "model.4.spatial_attention.conv.weight": [
+        1,
+        2,
+        7,
+        7
+      ]
+    }
+  },
+  "fullall_v6_neutralQ": {
+    "best.pt": {
+      "md5": "7827bb016796d4635d70ce64f20ecc50",
+      "size": 38050531
+    },
+    "last.pt": {
+      "md5": "f589d3a31e49b9c9212baef8b8fd6e43",
+      "size": 38050531
+    },
+    "epoch": -1,
+    "params": 2056974,
+    "fusion_keys": [
+      "model.4.corrector.0.weight",
+      "model.4.corrector.1.bias",
+      "model.4.corrector.1.num_batches_tracked",
+      "model.4.corrector.1.running_mean",
+      "model.4.corrector.1.running_var",
+      "model.4.corrector.1.weight",
+      "model.4.corrector.3.bias",
+      "model.4.corrector.3.weight",
+      "model.4.gate.0.weight",
+      "model.4.gate.1.bias",
+      "model.4.gate.1.num_batches_tracked",
+      "model.4.gate.1.running_mean",
+      "model.4.gate.1.running_var",
+      "model.4.gate.1.weight",
+      "model.4.gate.3.bias",
+      "model.4.gate.3.weight",
+      "model.4.q_proj.0.bias",
+      "model.4.q_proj.0.weight",
+      "model.4.q_proj.2.bias",
+      "model.4.q_proj.2.weight",
+      "model.4.quality_head.0.weight",
+      "model.4.quality_head.1.bias",
+      "model.4.quality_head.1.num_batches_tracked",
+      "model.4.quality_head.1.running_mean",
+      "model.4.quality_head.1.running_var",
+      "model.4.quality_head.1.weight",
+      "model.4.quality_head.3.bias",
+      "model.4.quality_head.3.weight",
+      "model.4.spatial_attention.conv.weight"
+    ],
+    "fusion_shapes": {
+      "model.4.corrector.0.weight": [
+        8,
+        20,
+        3,
+        3
+      ],
+      "model.4.corrector.1.bias": [
+        8
+      ],
+      "model.4.corrector.1.num_batches_tracked": [],
+      "model.4.corrector.1.running_mean": [
+        8
+      ],
+      "model.4.corrector.1.running_var": [
+        8
+      ],
+      "model.4.corrector.1.weight": [
+        8
+      ],
+      "model.4.corrector.3.bias": [
+        16
+      ],
+      "model.4.corrector.3.weight": [
+        16,
+        8,
+        1,
+        1
+      ],
+      "model.4.gate.0.weight": [
+        8,
+        20,
+        3,
+        3
+      ],
+      "model.4.gate.1.bias": [
+        8
+      ],
+      "model.4.gate.1.num_batches_tracked": [],
+      "model.4.gate.1.running_mean": [
+        8
+      ],
+      "model.4.gate.1.running_var": [
+        8
+      ],
+      "model.4.gate.1.weight": [
+        8
+      ],
+      "model.4.gate.3.bias": [
+        1
+      ],
+      "model.4.gate.3.weight": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "model.4.q_proj.0.bias": [
+        8
+      ],
+      "model.4.q_proj.0.weight": [
+        8,
+        3,
+        1,
+        1
+      ],
+      "model.4.q_proj.2.bias": [
+        4
+      ],
+      "model.4.q_proj.2.weight": [
+        4,
+        8,
+        1,
+        1
+      ],
+      "model.4.quality_head.0.weight": [
+        8,
+        20,
+        3,
+        3
+      ],
+      "model.4.quality_head.1.bias": [
+        8
+      ],
+      "model.4.quality_head.1.num_batches_tracked": [],
+      "model.4.quality_head.1.running_mean": [
+        8
+      ],
+      "model.4.quality_head.1.running_var": [
+        8
+      ],
+      "model.4.quality_head.1.weight": [
+        8
+      ],
+      "model.4.quality_head.3.bias": [
+        1
+      ],
+      "model.4.quality_head.3.weight": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "model.4.spatial_attention.conv.weight": [
+        1,
+        2,
+        7,
+        7
+      ]
+    }
+  },
+  "fullall_qmc": {
+    "best.pt": {
+      "md5": "97cba11eb989cffa563ee76dfad6b36d",
+      "size": 38050531
+    },
+    "last.pt": {
+      "md5": "06baef79aada84507a1151d9c0ac86c7",
+      "size": 38050531
+    },
+    "epoch": -1,
+    "params": 2056974,
+    "fusion_keys": [
+      "model.4.corrector.0.weight",
+      "model.4.corrector.1.bias",
+      "model.4.corrector.1.num_batches_tracked",
+      "model.4.corrector.1.running_mean",
+      "model.4.corrector.1.running_var",
+      "model.4.corrector.1.weight",
+      "model.4.corrector.3.bias",
+      "model.4.corrector.3.weight",
+      "model.4.gate.0.weight",
+      "model.4.gate.1.bias",
+      "model.4.gate.1.num_batches_tracked",
+      "model.4.gate.1.running_mean",
+      "model.4.gate.1.running_var",
+      "model.4.gate.1.weight",
+      "model.4.gate.3.bias",
+      "model.4.gate.3.weight",
+      "model.4.q_proj.0.bias",
+      "model.4.q_proj.0.weight",
+      "model.4.q_proj.2.bias",
+      "model.4.q_proj.2.weight",
+      "model.4.quality_head.0.weight",
+      "model.4.quality_head.1.bias",
+      "model.4.quality_head.1.num_batches_tracked",
+      "model.4.quality_head.1.running_mean",
+      "model.4.quality_head.1.running_var",
+      "model.4.quality_head.1.weight",
+      "model.4.quality_head.3.bias",
+      "model.4.quality_head.3.weight",
+      "model.4.spatial_attention.conv.weight"
+    ],
+    "fusion_shapes": {
+      "model.4.corrector.0.weight": [
+        8,
+        20,
+        3,
+        3
+      ],
+      "model.4.corrector.1.bias": [
+        8
+      ],
+      "model.4.corrector.1.num_batches_tracked": [],
+      "model.4.corrector.1.running_mean": [
+        8
+      ],
+      "model.4.corrector.1.running_var": [
+        8
+      ],
+      "model.4.corrector.1.weight": [
+        8
+      ],
+      "model.4.corrector.3.bias": [
+        16
+      ],
+      "model.4.corrector.3.weight": [
+        16,
+        8,
+        1,
+        1
+      ],
+      "model.4.gate.0.weight": [
+        8,
+        20,
+        3,
+        3
+      ],
+      "model.4.gate.1.bias": [
+        8
+      ],
+      "model.4.gate.1.num_batches_tracked": [],
+      "model.4.gate.1.running_mean": [
+        8
+      ],
+      "model.4.gate.1.running_var": [
+        8
+      ],
+      "model.4.gate.1.weight": [
+        8
+      ],
+      "model.4.gate.3.bias": [
+        1
+      ],
+      "model.4.gate.3.weight": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "model.4.q_proj.0.bias": [
+        8
+      ],
+      "model.4.q_proj.0.weight": [
+        8,
+        3,
+        1,
+        1
+      ],
+      "model.4.q_proj.2.bias": [
+        4
+      ],
+      "model.4.q_proj.2.weight": [
+        4,
+        8,
+        1,
+        1
+      ],
+      "model.4.quality_head.0.weight": [
+        8,
+        20,
+        3,
+        3
+      ],
+      "model.4.quality_head.1.bias": [
+        8
+      ],
+      "model.4.quality_head.1.num_batches_tracked": [],
+      "model.4.quality_head.1.running_mean": [
+        8
+      ],
+      "model.4.quality_head.1.running_var": [
+        8
+      ],
+      "model.4.quality_head.1.weight": [
+        8
+      ],
+      "model.4.quality_head.3.bias": [
+        1
+      ],
+      "model.4.quality_head.3.weight": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "model.4.spatial_attention.conv.weight": [
+        1,
+        2,
+        7,
+        7
+      ]
+    }
+  },
+  "B_C_structure_identical": true,
+  "code_snapshot_current": {
+    "train.py": "9bb8b05300cc78d6688788da279fe35b",
+    "val.py": "318b31bb4f3266c7592b23047a7791fc",
+    "models/common.py": "9a7ea25d7971d3bde2f81813b6e0cc5c",
+    "models/yolo.py": "71734f656df6930435c3e6f2c170ce0b",
+    "utils/datasets.py": "c555615105e11f4fa84018773ba5235f",
+    "utils/quality.py": "b6004683e5beb56a00da02827466fea4",
+    "utils/contribution.py": "aead6dc1831e04f32d52d6cd208c289f",
+    "utils/augmentations.py": "241ac6910b4e581ef41137defa914285",
+    "utils/loss.py": "c8142aafc82290fdfc12ce5c29930d3e",
+    "utils/metrics.py": "aceed6dc1d81c61b7c8579ac6d08f9a9",
+    "models/QMC_uav_s.yaml": "c4492b10ccf75c5c47f872a3fd5a5e37",
+    "models/YOLOMG_base.yaml": "544df185cff8ea9224b5a36a2a7b5974",
+    "data/ARD100_fullall.yaml": "ec6742718fe86110809a7318d12a3129",
+    "data/hyps/hyp.scratch-low.yaml": "11161c137c7626d71f5b5eae857f5505"
+  },
+  "data_lists": {
+    "train_all.txt": "9fc24db69317c8a4ebb0d64bc1f16fa7",
+    "train2_all.txt": "0ddc1b77640b2b4fa40b2425d4529f45",
+    "val.txt": "278138890073eb7fcf41a417eca93e3a",
+    "val2.txt": "2c216597d711055001045acfe7d51c31",
+    "test.txt": "44a067e5e0ffb985e28f21911953ef5d",
+    "test2.txt": "df7d052d6d0bebe305d4918615f79a10"
+  },
+  "caveat": "runs trained before code snapshots existed; identity is verified via opt/hyp full-diff, per-epoch logs and checkpoint structural fingerprint; B/C fusion shapes compared key-by-key above."
+}

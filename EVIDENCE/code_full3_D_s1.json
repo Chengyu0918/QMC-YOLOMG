@@ -1,0 +1,28 @@
+{
+  "run": "full3_D_s1",
+  "time": "2026-10-09T10:01:07",
+  "code": {
+    "train.py": "9f0058f339f66bcfbb748cf852f2d801",
+    "val.py": "318b31bb4f3266c7592b23047a7791fc",
+    "models/common.py": "9a7ea25d7971d3bde2f81813b6e0cc5c",
+    "models/yolo.py": "71734f656df6930435c3e6f2c170ce0b",
+    "utils/datasets.py": "c555615105e11f4fa84018773ba5235f",
+    "utils/quality.py": "b6004683e5beb56a00da02827466fea4",
+    "utils/contribution.py": "5e9106bd0da60b3df104b5a058ab163e",
+    "utils/augmentations.py": "241ac6910b4e581ef41137defa914285",
+    "utils/loss.py": "c8142aafc82290fdfc12ce5c29930d3e",
+    "utils/metrics.py": "aceed6dc1d81c61b7c8579ac6d08f9a9",
+    "models/QMC_uav_s.yaml": "c4492b10ccf75c5c47f872a3fd5a5e37",
+    "models/YOLOMG_base.yaml": "544df185cff8ea9224b5a36a2a7b5974",
+    "data/ARD100_fullall.yaml": "ec6742718fe86110809a7318d12a3129",
+    "data/hyps/hyp.scratch-low.yaml": "11161c137c7626d71f5b5eae857f5505"
+  },
+  "data_lists": {
+    "train_all.txt": "9fc24db69317c8a4ebb0d64bc1f16fa7",
+    "train2_all.txt": "0ddc1b77640b2b4fa40b2425d4529f45",
+    "val.txt": "278138890073eb7fcf41a417eca93e3a",
+    "val2.txt": "2c216597d711055001045acfe7d51c31",
+    "test.txt": "44a067e5e0ffb985e28f21911953ef5d",
+    "test2.txt": "df7d052d6d0bebe305d4918615f79a10"
+  }
+}
